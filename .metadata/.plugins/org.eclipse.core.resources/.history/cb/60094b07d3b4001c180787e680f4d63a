@@ -1,0 +1,12 @@
+package com.zensar.ui;
+
+public class MenuHandler {
+
+	public void displayMenu() {
+		String[] menuItem = { "Add Employee", "Search Employee",
+				"Edit Employee", "List All Employee", "Delete Employee","Exit" };
+		
+		
+		
+	}
+}

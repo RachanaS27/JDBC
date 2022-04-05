@@ -1,0 +1,26 @@
+package com.zensar.ui;
+
+public class UIModules {
+
+	
+	public void addInfo(){
+		
+	}
+	
+	public void searchInfo(){
+		
+	}
+	
+public void editInfo(){
+		
+	}
+
+public void listInfo(){
+	
+}
+
+public void deleteInfo(){
+	
+}
+
+}
