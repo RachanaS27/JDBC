@@ -1,0 +1,19 @@
+package com.zensar.ui;
+
+import com.zensar.bean.Circle;
+import com.zensar.bean.Shape;
+import com.zensar.bean.Square;
+
+public class MainRunner {
+
+	public static void main(String[] args) {
+
+		
+	
+	
+	
+	
+	
+	}
+
+}

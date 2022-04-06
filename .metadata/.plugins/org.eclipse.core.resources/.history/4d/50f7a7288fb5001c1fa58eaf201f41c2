@@ -1,0 +1,13 @@
+package com.zensar.bean;
+
+import com.zensar.bean.Employee;
+
+public class MainRunner {
+
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		
+
+	}
+
+}

@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="com.zensar.ui.MenuHandler"/>
 <fullyQualifiedTypeName name="com.zensar.ui.UIModules"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Gender"/>
+<fullyQualifiedTypeName name="com.zensar.ui.InputPrompter"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Circle"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Shape"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Square"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Student"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Loan"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Address"/>
+<fullyQualifiedTypeName name="com.zensar.bean.Person"/>
 </qualifiedTypeNameHistroy>
