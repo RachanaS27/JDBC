@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context/
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean class="com.zensar.bean.Student" id="stud1">
+		<property name="rollNumber" value="1"></property>
+		<property name="name" value="Rahul"></property>
+		<property name="rating" value="8"></property>
+	</bean>
+
+	<bean class="com.zensar.bean.Student" id="stud2">
+		<constructor-arg value="2"></constructor-arg>
+		<constructor-arg value="Rachana"></constructor-arg>
+		<constructor-arg value="10"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.String" id="company">
+		<constructor-arg value="Zensar"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.Double" id="basicSalary">
+		<constructor-arg value="20000"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.Float" id="floatNum">
+		<constructor-arg value="60.67"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.Integer" id="rollNoBean">
+		<constructor-arg value="3"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.String" id="nameBean">
+		<constructor-arg value="Pooja"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.Integer" id="ratingBean">
+		<constructor-arg value="20"></constructor-arg>
+	</bean>
+
+	<bean class="com.zensar.bean.Student" id="stud3">
+		<property name="rollNumber" ref="rollNoBean"></property>
+		<property name="name" ref="nameBean"></property>
+		<property name="rating" ref="ratingBean"></property>
+	</bean>
+
+
+	<bean class="java.lang.String" id="custNameBean">
+		<constructor-arg name="customerName" value="Prashanth"></constructor-arg>
+	</bean>
+
+	<bean class="java.lang.Double" id="loanAmtBean">
+		<constructor-arg name="loanAmount" value="40000"></constructor-arg>
+	</bean>
+
+	<bean class="com.zensar.bean.Loan" id="loan1">
+		<property name="customerName" ref="custNameBean"></property>
+		<property name="loanAmount" ref="loanAmtBean"></property>
+	</bean>
+
+	<bean class="com.zensar.bean.Address" id="address">
+		<property name="doorNumber" value="F-4"></property>
+		<property name="areaName" value="Padmanabhanagar"></property>
+		<property name="cityName" value="Bangalore"></property>
+	</bean>
+
+	<bean class="com.zensar.bean.Person" id="personBean" autowire="byName">
+		<property name="name" value="Rachana"></property>
+		<property name="address" ref="addressBean"></property>
+		<property name="basic" value="20000"></property>
+	</bean>
+	
+	<bean class="com.zensar.bean.AgradeSalaryCalculator" id="agradeBean"></bean>
+	<bean class="com.zensar.bean.BgradeSalaryCalculator" id="bgradeBean"></bean>
+
+	<bean class="com.zensar.bean.Person" id="personBean1" autowire="byName">
+		<property name="name" value="Harshith"></property>
+		<property name="basic" value="10000"></property>
+	</bean>
+
+</beans>

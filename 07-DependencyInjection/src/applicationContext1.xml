@@ -68,13 +68,18 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 		<property name="cityName" value="Bangalore"></property>
 	</bean>
 
-	<bean class="com.zensar.bean.Person" id="personBean">
+	<bean class="com.zensar.bean.Person" id="personBean" autowire="byName">
 		<property name="name" value="Rachana"></property>
 		<property name="address" ref="addressBean"></property>
+		<property name="basic" value="20000"></property>
 	</bean>
+	
+	<bean class="com.zensar.bean.AgradeSalaryCalculator" id="agradeBean"></bean>
+	<bean class="com.zensar.bean.BgradeSalaryCalculator" id="bgradeBean"></bean>
 
-	<bean class="com.zensar.bean.Person" id="personBean1" autowire="byType">
+	<bean class="com.zensar.bean.Person" id="personBean1" autowire="byName">
 		<property name="name" value="Harshith"></property>
+		<property name="basic" value="10000"></property>
 	</bean>
 
 </beans>

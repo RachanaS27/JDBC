@@ -21,4 +21,6 @@
 <fullyQualifiedTypeName name="com.zensar.bean.Loan"/>
 <fullyQualifiedTypeName name="com.zensar.bean.Address"/>
 <fullyQualifiedTypeName name="com.zensar.bean.Person"/>
+<fullyQualifiedTypeName name="com.zensar.bean.SalaryCalculator"/>
+<fullyQualifiedTypeName name="com.zensar.bean.AgradeSalaryCalculator"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+package com.zensar.bean;
+
+public class AgradeSalaryCalculator implements SalaryCalculator{
+	public double computeAllowance(double basic){
+		return 1;
+	}
+}

@@ -34,9 +34,15 @@ public class MainRunner {
 		
 		Person person = (Person)context.getBean("personBean");
 		System.out.println(person);
-		
+		System.out.println(person.getAllowance());
+
 		Person person1 = (Person)context.getBean("personBean1");
 		System.out.println(person1);
+		System.out.println(person1.getAllowance());
+		
+		
+
+
 
 	}
 
