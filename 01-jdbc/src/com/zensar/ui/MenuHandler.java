@@ -16,7 +16,7 @@ public class MenuHandler {
 		System.out.print("\t\t Enter your Choice :  ");
 	}
 
-	public void dispatchMenu() {
+	public void dispatchMenu() throws Exception {
 		int choice = 0;
 		Scanner scan = new Scanner(System.in);
 		choice = scan.nextInt();

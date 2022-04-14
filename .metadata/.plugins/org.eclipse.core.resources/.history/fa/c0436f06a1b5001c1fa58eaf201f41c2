@@ -1,8 +1,0 @@
-package com.zensar.bean;
-
-public class Address {
-
-	private String doorNumber;
-	private String areaName;
-	private String cityName;
-}

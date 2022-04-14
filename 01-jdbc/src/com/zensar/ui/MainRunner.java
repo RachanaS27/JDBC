@@ -2,7 +2,7 @@ package com.zensar.ui;
 
 public class MainRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		MenuHandler menuHandler;
 		menuHandler = new MenuHandler();
