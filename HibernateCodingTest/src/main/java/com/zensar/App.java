@@ -36,9 +36,9 @@ public class App {
 		skillList.add(new Skill("SQL",1));
 		skillList.add(new Skill("Python",2));
 		
-		BankAccount bankAccount = new BankAccount(101, "1234HDFC78");
-		Address address = new Address(1, "bangalore", "560070", null);
-		Employee employee = new Employee("Rahul", 45000.00, address, skillList, bankAccount);
+		BankAccount bankAccount = new BankAccount(102, "2234HDFC79");
+		Address address = new Address(2, "mysore", "560070", null);
+		Employee employee = new Employee("Ramesh", 65000.00, address, skillList, bankAccount);
 		employee.setAddress(address);
 		address.setEmployee(employee);
 		
@@ -57,7 +57,7 @@ public class App {
 	}
   public static void main(String[] args) {
     
-	 // insertTesting();
+	  // insertTesting();
 	  loadTesting();
   }
 }
