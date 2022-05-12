@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.zensar.olx.users.db.OlxUserDAO"/>
-    <fullyQualifiedTypeName name="com.zensar.olx.users.service.OlxUserService"/>
-    <fullyQualifiedTypeName name="com.zensar.olx.users.bean.OlxUser"/>
-    <fullyQualifiedTypeName name="com.zensar.olx.master.db.CategoryDAO"/>
     <fullyQualifiedTypeName name="com.zensar.olx.master.service.CategoryService"/>
     <fullyQualifiedTypeName name="com.zensar.olx.master.bean.Category"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
@@ -17,9 +13,7 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="com.zensar.olx.advertises.db.AdvertisementDAO"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="com.zensar.olx.advertises.service.AdvertisementPostService"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.zensar.olx.advertises.bean.AdvertisementPostRequest"/>
@@ -33,13 +27,11 @@
     <fullyQualifiedTypeName name="com.zensar.bean.Skill"/>
     <fullyQualifiedTypeName name="com.zensar.bean.BankAccount"/>
     <fullyQualifiedTypeName name="com.zensar.bean.Address"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="javax.persistence.MapsId"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="javax.persistence.SecondaryTables"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.zensar.bean.InvalidSalaryException"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="com.zensar.products.service.ProductService"/>
+    <fullyQualifiedTypeName name="com.zensar.products.db.ProductDAO"/>
+    <fullyQualifiedTypeName name="com.zensar.products.bean.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
 </qualifiedTypeNameHistroy>
