@@ -1,7 +1,32 @@
 package com.zensar.bean;
 
 public class InvalidSalaryException extends Exception{
-	
-	
+
+	public InvalidSalaryException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidSalaryException(String message, Throwable cause, boolean enableSuppression, boolean writeableStackTrace) {
+		super(message, cause, enableSuppression, writeableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidSalaryException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidSalaryException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidSalaryException(Throwable message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+
 
 }
